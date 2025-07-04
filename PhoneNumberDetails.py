@@ -18,7 +18,7 @@ def track():
 	entry_number=entry.get()
 	number=phonenumbers.parse(entry_number)
 	# country
-	locate=geocoder.description_for_number(number, 'en')
+	locate=geocoder.description_for_number(12706190214,àa'en')
 	country.config(text=locate)
 	# operator 
 	operator=carrier.name_for_number(number, 'en')
